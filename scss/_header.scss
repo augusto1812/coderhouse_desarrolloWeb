@@ -12,12 +12,13 @@ header {
     }
   }
   .link-activo {
-    color: white
+    color: white;
   }
   nav {
     padding: 0.3rem 0;
+    font-size: 0.5rem;
     li {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       list-style: none;
       padding: 0 0.3rem;
       cursor: pointer;
@@ -30,7 +31,8 @@ header {
 .dropdown {
   margin-top: 0.5rem;
 }
-a.dropdown-item, .link-activo {
+a.dropdown-item,
+.link-activo {
   color: white;
 }
 #dropdownMenuButton {

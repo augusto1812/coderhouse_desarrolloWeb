@@ -75,9 +75,10 @@ header {
   header .link-activo {
     color: white; }
   header nav {
-    padding: 0.3rem 0; }
+    padding: 0.3rem 0;
+    font-size: 0.5rem; }
     header nav li {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       list-style: none;
       padding: 0 0.3rem;
       cursor: pointer; }
@@ -87,7 +88,8 @@ header {
 .dropdown {
   margin-top: 0.5rem; }
 
-a.dropdown-item, .link-activo {
+a.dropdown-item,
+.link-activo {
   color: white; }
 
 #dropdownMenuButton {
@@ -134,9 +136,6 @@ footer {
       padding: 1rem; }
 
 /* QUIEN SOY */
-.descripcion {
-  text-align: left; }
-
 .fotoPersonal {
   width: 200px;
   margin: 10px; }
