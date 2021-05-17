@@ -1,0 +1,47 @@
+/* HEADER */
+header {
+  background-color: $bluePurple;
+  padding: 0.3rem;
+  a {
+    text-decoration: none;
+    color: $veryLightGrey;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+      color: white;
+    }
+  }
+  .link-activo {
+    color: white
+  }
+  nav {
+    padding: 0.3rem 0;
+    li {
+      font-size: 1.2rem;
+      list-style: none;
+      padding: 0 0.3rem;
+      cursor: pointer;
+    }
+  }
+  ul {
+    padding-left: 0;
+  }
+}
+.dropdown {
+  margin-top: 0.5rem;
+}
+a.dropdown-item, .link-activo {
+  color: white;
+}
+#dropdownMenuButton {
+  background-color: white;
+  color: $bluePurple;
+  padding: 0.1rem 0.5rem;
+  margin-right: 0.5rem;
+}
+.dropdown-menu.show {
+  background-color: $bluePurple;
+}
+.dropdown-item {
+  color: $veryLightGrey;
+}

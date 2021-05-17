@@ -1,0 +1,12 @@
+/* SKILLS */
+.skillsFlex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+  }
+  .tamano {
+    width: 100px;
+    text-align: center;
+  }

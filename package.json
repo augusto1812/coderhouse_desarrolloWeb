@@ -1,0 +1,25 @@
+{
+  "name": "desarrolloweb",
+  "version": "1.0.0",
+  "description": "Repositorio del proyecto final del curso de Desarrollo Web de Coderhouse. En el mismo desarrollé mi portfolio, utilizando HTML y CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilos.scss css/estilos.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augusto1812/DesarrolloWeb.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augusto1812/DesarrolloWeb/issues"
+  },
+  "homepage": "https://github.com/augusto1812/DesarrolloWeb#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7"
+  }
+}
