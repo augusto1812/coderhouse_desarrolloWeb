@@ -2,7 +2,7 @@
 body {
   min-height: 100vh;
   line-height: 1.25;
-  font-size: 18px;
+  font-size: 1.125rem;
   display: flex;
   flex-direction: column; }
 
@@ -45,9 +45,6 @@ h2 {
   padding: 5px;
   margin: 2px;
   background-color: white; }
-
-.boton:hover {
-  color: #7c00ff; }
 
 /* DESKTOP STYLES */
 @media only screen and (min-width: 961px) {
@@ -115,7 +112,7 @@ a.dropdown-item, .link-activo {
   padding: 10px;
   margin-top: 2rem; }
 
-.contactameIndex:hover {
+.contactameIndex:hover, .boton:hover {
   background-color: #7c00ff;
   text-decoration: none;
   transition: 300ms linear;
@@ -144,9 +141,15 @@ footer {
   width: 200px;
   margin: 10px; }
 
-#botonesContacto {
-  text-align: center;
-  margin: 1rem; }
+fieldset {
+  border: solid 2px #7c00ff;
+  margin: 1rem;
+  padding: 0.5rem; }
+
+legend {
+  color: #7c00ff;
+  margin: 0%;
+  padding: 0%; }
 
 /* SKILLS */
 .skillsFlex {

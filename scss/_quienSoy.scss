@@ -1,13 +1,20 @@
 /* QUIEN SOY */
 .descripcion {
-    text-align: left;
-  }
-  .fotoPersonal {
-    width: 200px;
-    margin: 10px;
-  }
-  #botonesContacto {
-    text-align: center;
-    margin: 1rem;
-  }
-  
+  text-align: left;
+}
+.fotoPersonal {
+  width: 200px;
+  margin: 10px;
+}
+
+fieldset {
+  border:solid 2px $bluePurple;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+legend {
+  color: $bluePurple;
+  margin: 0%;
+  padding: 0%;
+}
