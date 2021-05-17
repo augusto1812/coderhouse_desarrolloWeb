@@ -9,7 +9,11 @@
     text-decoration: none;
     width: 100%;
     padding: 10px;
+    margin-top: 2rem;
   }
   .contactameIndex:hover {
-    color: #7c00ff;
+    background-color: $bluePurple;
+    text-decoration: none;
+    transition: 300ms linear;
+    color: white;
   }

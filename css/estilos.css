@@ -111,10 +111,14 @@ a.dropdown-item, .link-activo {
   border: solid 2px #7c00ff;
   text-decoration: none;
   width: 100%;
-  padding: 10px; }
+  padding: 10px;
+  margin-top: 2rem; }
 
 .contactameIndex:hover {
-  color: #7c00ff; }
+  background-color: #7c00ff;
+  text-decoration: none;
+  transition: 300ms linear;
+  color: white; }
 
 /* FOOTER */
 footer {
@@ -132,35 +136,6 @@ footer ul {
 footer ul li {
   list-style: none;
   padding: 1rem; }
-
-.boton {
-  padding: 0.4rem;
-  border-color: #f52ec0;
-  background-color: #f52ec0;
-  border-radius: 0.2rem;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 0.80rem;
-  font-family: "Inconsolata", monospace; }
-  .boton:hover {
-    border-color: white;
-    color: white;
-    background-color: black;
-    transition: 300ms linear; }
-
-input, textarea {
-  color: white;
-  padding: 0.3rem;
-  font-family: 'Inconsolata', monospace;
-  background-color: #0e0d0d; }
-  input:focus, textarea:focus {
-    outline: 0;
-    border-color: #f52ec0;
-    background-color: #161414; }
-
-p.text-muted {
-  text-align: center;
-  font-size: 0.8rem; }
 
 /* QUIEN SOY */
 .descripcion {
