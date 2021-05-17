@@ -102,9 +102,6 @@ a.dropdown-item, .link-activo {
   color: #e2e2e2; }
 
 /* INDEX */
-.mainTitle {
-  font-size: 60px; }
-
 .contactameIndex {
   font-size: 30px;
   color: black;
@@ -125,17 +122,15 @@ footer {
   background-color: grey;
   font-size: 1rem;
   margin-top: auto; }
-
-footer ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  margin: 0; }
-
-footer ul li {
-  list-style: none;
-  padding: 1rem; }
+  footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 0; }
+    footer ul li {
+      list-style: none;
+      padding: 1rem; }
 
 /* QUIEN SOY */
 .descripcion {

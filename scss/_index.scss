@@ -1,19 +1,16 @@
 /* INDEX */
-.mainTitle {
-    font-size: 60px;
-  }
-  .contactameIndex {
-    font-size: 30px;
-    color: black;
-    border: solid 2px #7c00ff;
-    text-decoration: none;
-    width: 100%;
-    padding: 10px;
-    margin-top: 2rem;
-  }
-  .contactameIndex:hover {
-    background-color: $bluePurple;
-    text-decoration: none;
-    transition: 300ms linear;
-    color: white;
-  }
+.contactameIndex {
+  font-size: 30px;
+  color: black;
+  border: solid 2px $bluePurple;
+  text-decoration: none;
+  width: 100%;
+  padding: 10px;
+  margin-top: 2rem;
+}
+.contactameIndex:hover {
+  background-color: $bluePurple;
+  text-decoration: none;
+  transition: 300ms linear;
+  color: white;
+}
