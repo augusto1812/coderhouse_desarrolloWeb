@@ -151,16 +151,13 @@ legend {
   padding: 0%; }
 
 /* SKILLS */
-.skillsFlex {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  margin: 1rem; }
-
 .tamano {
   width: 100px;
-  text-align: center; }
+  text-align: center;
+  margin: 0.1rem 3rem 0.3rem 3rem; }
+
+.progressColor {
+  background-color: #7c00ff; }
 
 /* PROYECTOS */
 #gridProyectos {
