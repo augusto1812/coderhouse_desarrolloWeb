@@ -36,7 +36,7 @@ h2 {
 .commonBorder {
   font-size: 18px;
   border: solid 2px #7c00ff;
-  margin: 1rem;
+  margin: 0.5rem;
   padding: 1rem;
   text-align: center;
   line-height: 1.2; }
@@ -191,6 +191,14 @@ section#Back {
   max-width: 100%;
   height: auto;
   margin: 5px auto 20px auto; }
+
+/* CONTACTO */
+ul {
+  list-style: none;
+  line-height: 1.5; }
+
+.letsChat {
+  max-width: 15rem; }
 
 .incrementar,
 .miniIncrementar {
