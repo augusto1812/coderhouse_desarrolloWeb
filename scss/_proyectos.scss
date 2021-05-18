@@ -7,6 +7,9 @@
 
 div {
   ul {
+    li {
+      text-align: center;
+    }
     li:hover {
       color: $bluePurple;
       transition: 150ms linear;

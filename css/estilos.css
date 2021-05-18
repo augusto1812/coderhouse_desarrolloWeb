@@ -160,6 +160,9 @@ legend {
   height: auto;
   margin: 0.2rem auto 0.5rem auto; }
 
+div ul li {
+  text-align: center; }
+
 div ul li:hover {
   color: #7c00ff;
   transition: 150ms linear; }
