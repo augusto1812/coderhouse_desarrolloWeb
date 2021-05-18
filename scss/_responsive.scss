@@ -34,6 +34,10 @@
   h1 {
     font-size: 2.2rem;
   }
+  .tamanoIframe {
+    max-width: 5rem;
+    margin: 0.1rem auto 0.1rem auto;
+  }
 }
 /* iPads ----------- */
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
