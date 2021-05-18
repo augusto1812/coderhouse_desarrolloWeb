@@ -49,21 +49,6 @@ h2 {
   margin: 2px;
   background-color: white; }
 
-/* DESKTOP STYLES */
-@media only screen and (min-width: 961px) {
-  #gridProyectos {
-    grid-template-areas: "Titulo Titulo Titulo Titulo" "Desarrollo Javascript React Back"; } }
-
-/* TABLET STYLES */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  #gridProyectos {
-    grid-template-areas: "Titulo Titulo " "Desarrollo Javascript" "React Back"; } }
-
-/* MOBILE STYLES */
-@media only screen and (max-width: 400px) {
-  #gridProyectos {
-    grid-template-areas: "Titulo Titulo " "Desarrollo Javascript" "React Back"; } }
-
 /* HEADER */
 header {
   background-color: #7c00ff;
@@ -204,6 +189,7 @@ ul {
 .letsChat {
   max-width: 10rem; }
 
+/* ANIMACIONES */
 .incrementar,
 .miniIncrementar {
   transition: all 0.2s ease-in-out; }
