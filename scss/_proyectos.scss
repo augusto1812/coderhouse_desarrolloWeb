@@ -4,11 +4,11 @@
     grid-template-areas:
       "Titulo Titulo Titulo Titulo"
       "Desarrollo Javascript React Back";
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
     justify-content: space-around;
     justify-items: center;
-    margin: 10px;
+    margin: 0.5rem;
   }
   h2 {
     grid-area: Titulo;
@@ -28,5 +28,14 @@
   .tamanoIframe {
     max-width: 100%;
     height: auto;
-    margin: 5px auto 20px auto;
+    margin: 0.2rem auto 0.5rem auto;
+  }
+
+  div {
+    ul {
+      li:hover{
+          color: $bluePurple;
+          transition: 150ms linear
+      }
+    }
   }
