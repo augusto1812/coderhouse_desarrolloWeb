@@ -21,9 +21,6 @@ select,
 textarea {
   font-family: "europa", sans-serif; }
 
-h1 {
-  font-size: 15vh; }
-
 h1:hover {
   color: #7c00ff;
   transition: 400ms linear; }
@@ -94,7 +91,7 @@ a.dropdown-item,
 
 /* INDEX */
 .contactameIndex {
-  font-size: 30px;
+  font-size: 1.5rem;
   color: black;
   border: solid 2px #7c00ff;
   text-decoration: none;
