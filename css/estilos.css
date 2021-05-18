@@ -2,7 +2,7 @@
 body {
   min-height: 100vh;
   line-height: 1.25;
-  font-size: 1.125rem;
+  font-size: 2vw;
   display: flex;
   flex-direction: column; }
 
@@ -21,14 +21,25 @@ select,
 textarea {
   font-family: "europa", sans-serif; }
 
+h1 {
+  font-size: 8.5vw; }
+
+h2 {
+  font-size: 7vw; }
+
 h1:hover {
   color: #7c00ff;
   transition: 400ms linear; }
 
 h2 {
   text-align: center;
-  font-size: 32px;
   color: #7c00ff; }
+
+h3 {
+  color: #7c00ff; }
+
+.titulos {
+  font-size: 6vw; }
 
 .commonBorder {
   font-size: 18px;
@@ -91,13 +102,12 @@ a.dropdown-item,
 
 /* INDEX */
 .contactameIndex {
-  font-size: 1.5rem;
   color: black;
   border: solid 2px #7c00ff;
   text-decoration: none;
   width: 100%;
   padding: 10px;
-  margin-top: 2rem; }
+  margin-top: 5rem; }
 
 .contactameIndex:hover, .boton:hover {
   background-color: #7c00ff;

@@ -29,37 +29,52 @@
 //   }
 // }
 
-/* Smartphones (portrait and landscape) ----------- */
+// /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-  body {
-    font-size: 0.01rem;
-  }
-  
-  h1 {
-    font-size: 1rem;
+   h1 {
+    font-size: 10vw;
   }
   .tamanoIframe {
     max-width: 5rem;
     margin: 0.1rem auto 0.1rem auto;
   }
   .contactameIndex {
-    font-size: 0.001rem;
+    font-size: 0.1rem;
     color: whitesmoke;
     border: solid 1px pink;
     text-decoration: none;
     padding: 0.1rem;
     margin: 0.1rem;
   }
-}
-/* iPads ----------- */
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  h1 {
-    font-size: 8.4rem;
+  #listaContacto {
+    font-size: 0.5px;
   }
 }
-/* Desktops and laptops ----------- */
-@media only screen and (min-width: 1224px) {
-  h1 {
-    font-size: 15rem;
-  }
-}
+// /* iPads ----------- */
+// @media only screen and (min-width: 768px) and (max-width: 1024px) {
+//   h1 {
+//     font-size: 20vh;
+//   }
+//   .contactameIndex {
+//     font-size: 0.1rem;
+//     color: whitesmoke;
+//     border: solid 1px pink;
+//     text-decoration: none;
+//     padding: 0.1rem;
+//     margin: 10rem;
+//   }
+// }
+// /* Desktops and laptops ----------- */
+// @media only screen and (min-width: 961px) {
+//   h1 {
+//     font-size: 10vw;
+//   }
+//   .contactameIndex {
+//     font-size: 0.1rem;
+//     color: whitesmoke;
+//     border: solid 1px pink;
+//     text-decoration: none;
+//     padding: 0.1rem;
+//     margin: 5rem;
+//   }
+// }
