@@ -148,30 +148,6 @@ legend {
   background-color: #7c00ff; }
 
 /* PROYECTOS */
-#gridProyectos {
-  display: grid;
-  grid-template-areas: "Titulo Titulo Titulo Titulo" "Desarrollo Javascript React Back";
-  grid-column-gap: 0.5rem;
-  grid-row-gap: 0.5rem;
-  justify-content: space-around;
-  justify-items: center;
-  margin: 0.5rem; }
-
-h2 {
-  grid-area: Titulo; }
-
-section#Desarrollo {
-  grid-area: Desarrollo; }
-
-section#Javascrippt {
-  grid-area: Javascript; }
-
-section#React {
-  grid-area: React; }
-
-section#Back {
-  grid-area: Back; }
-
 .tamanoIframe {
   max-width: 100%;
   height: auto;
