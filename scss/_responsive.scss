@@ -1,70 +1,7 @@
 /* RESPONSIVE*/
 
-// /* DESKTOP STYLES */
-// @media only screen and (min-width: 961px) {
-//   #gridProyectos {
-//     grid-template-areas:
-//       "Titulo Titulo Titulo Titulo"
-//       "Desarrollo Javascript React Back";
-//   }
-// }
-
-// /* TABLET STYLES */
-// @media only screen and (min-width: 401px) and (max-width: 960px) {
-//   #gridProyectos {
-//     grid-template-areas:
-//       "Titulo Titulo "
-//       "Desarrollo Javascript"
-//       "React Back";
-//   }
-// }
-
-// /* MOBILE STYLES */
-// @media only screen and (max-width: 400px) {
-//   #gridProyectos {
-//     grid-template-areas:
-//       "Titulo Titulo "
-//       "Desarrollo Javascript"
-//       "React Back";
-//   }
-// }
-
-// /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width: 320px) and (max-width: 480px) {
- .listaContacto {
-   font-size: 15px;
- }
+  .listaContacto {
+    font-size: 15px;
   }
-
-  // #listaContacto {
-  //   text-align: left;
-  // }
-
-// /* iPads ----------- */
-// @media only screen and (min-width: 768px) and (max-width: 1024px) {
-//   h1 {
-//     font-size: 20vh;
-//   }
-//   .contactameIndex {
-//     font-size: 0.1rem;
-//     color: whitesmoke;
-//     border: solid 1px pink;
-//     text-decoration: none;
-//     padding: 0.1rem;
-//     margin: 10rem;
-//   }
-// }
-// /* Desktops and laptops ----------- */
-// @media only screen and (min-width: 961px) {
-//   h1 {
-//     font-size: 10vw;
-//   }
-//   .contactameIndex {
-//     font-size: 0.1rem;
-//     color: whitesmoke;
-//     border: solid 1px pink;
-//     text-decoration: none;
-//     padding: 0.1rem;
-//     margin: 5rem;
-//   }
-// }
+}
