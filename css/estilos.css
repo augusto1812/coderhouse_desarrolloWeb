@@ -137,7 +137,8 @@ footer {
 fieldset {
   border: solid 2px #7c00ff;
   margin: 0.5rem;
-  padding: 0.5rem; }
+  padding: 0.5rem;
+  line-height: 1.5; }
 
 legend {
   color: #7c00ff;
