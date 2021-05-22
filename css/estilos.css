@@ -106,8 +106,7 @@ a.dropdown-item,
   border: solid 2px #7c00ff;
   text-decoration: none;
   width: 100%;
-  padding: 10px;
-  margin-top: 5rem; }
+  padding: 10px; }
 
 .contactameIndex:hover, .boton:hover {
   background-color: #7c00ff;
